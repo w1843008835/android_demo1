@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+<Button
+    android:id="@+id/btn_1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="按钮1"
+    android:textSize="20sp"
+    android:textColor="#0066FF"
+    android:background="#FF0000"
+    >
+
+</Button>
+    <Button
+    android:id="@+id/btn_2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="按钮2"
+    android:textSize="20sp"
+    android:textColor="#0066FF"
+    android:background="@drawable/bg_bnt2"
+    android:layout_below="@id/btn_1"
+    android:layout_marginTop="10dp"
+    >
+
+</Button>
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="按钮3"
+        android:textSize="20sp"
+        android:textColor="#0066FF"
+        android:background="@drawable/bg_bnt3"
+        android:layout_below="@id/btn_2"
+        android:layout_marginTop="10dp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_3"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn4"
+        android:text="按钮4"
+        android:textColor="#0066FF"
+        android:textSize="20sp"
+        android:onClick="showToast"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_4"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn4"
+        android:text="EditText"
+        android:textColor="#0066FF"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        >
+
+    </Button>
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_5"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn4"
+        android:text="RadioButton"
+        android:textColor="#0066FF"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+
+        >
+
+    </Button>
+    <Button
+        android:id="@+id/btn_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_6"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn4"
+        android:text="CheckBox"
+        android:textColor="#0066FF"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+
+        >
+
+    </Button>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/81803/Documents/android/applications/app/src/main/res/drawable/bg_bnt2.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/81803/Documents/android/applications/app/src/main/res/drawable/bg_bnt3.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/81803/Documents/android/applications/app/src/main/res/drawable/bg_btn4.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/81803/Documents/android/applications/app/src/main/res/drawable/bg_checkbox.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/81803/Documents/android/applications/app/src/main/res/drawable/bg_username.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/81803/Documents/android/applications/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/81803/Documents/android/applications/app/src/main/res/drawable/select_orange.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/81803/Documents/android/applications/app/src/main/res/layout/activity_button.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/81803/Documents/android/applications/app/src/main/res/layout/activity_check_box.xml" value="0.2015625" />
+        <entry key="..\:/Users/81803/Documents/android/applications/app/src/main/res/layout/activity_login.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/81803/Documents/android/applications/app/src/main/res/layout/activity_login2.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/81803/Documents/android/applications/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/81803/Documents/android/applications/app/src/main/res/layout/activity_radio_button.xml" value="0.2015625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
