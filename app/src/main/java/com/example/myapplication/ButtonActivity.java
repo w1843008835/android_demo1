@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class ButtonActivity extends AppCompatActivity {
-    private Button btn3,btn5,btn6,btn_checkbox;
+    private Button btn3,btn5,btn6,btn_checkbox,btn_imageView,btn_listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,8 @@ public class ButtonActivity extends AppCompatActivity {
         btn5 = findViewById(R.id.btn_5);
         btn6 = findViewById(R.id.btn_6);
         btn_checkbox = findViewById(R.id.btn_checkbox);
+        btn_imageView = findViewById(R.id.btn_imageview);
+        btn_listView = findViewById(R.id.btn_listview);
         setListeners();
 
     }
@@ -31,6 +33,8 @@ public class ButtonActivity extends AppCompatActivity {
         btn5.setOnClickListener(onclick);
         btn6.setOnClickListener(onclick);
         btn_checkbox.setOnClickListener(onclick);
+        btn_imageView.setOnClickListener(onclick);
+        btn_listView.setOnClickListener(onclick);
     }
     private class onclick implements View.OnClickListener{
         @Override
@@ -49,9 +53,18 @@ public class ButtonActivity extends AppCompatActivity {
                     intent = new Intent(ButtonActivity.this,RadioButtonActivity.class);
                     break;
                 case R.id.btn_checkbox:
-                    //跳转到RadioButton界面
+                    //跳转到checkbox界面
                     intent = new Intent(ButtonActivity.this,CheckBoxActivity.class);
                     break;
+                case R.id.btn_imageview:
+                    //跳转到imageview界面
+                    intent = new Intent(ButtonActivity.this,ImageViewActivity.class);
+                    break;
+                case R.id.btn_listview:
+                    //跳转到listview界面
+                    intent = new Intent(ButtonActivity.this,ListViewActivity.class);
+                    break;
+
             }
             startActivity(intent);
         }

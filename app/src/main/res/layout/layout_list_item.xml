@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    >
+    <!--  scaleType 缩放-->
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:background="#000"
+        >
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="hello"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:text="2021/08/14"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:text="content"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
