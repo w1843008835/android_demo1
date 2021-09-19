@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class ButtonActivity extends AppCompatActivity {
-    private Button btn3,btn5,btn6,btn_checkbox,btn_imageView,btn_listView;
+    private Button btn3,btn5,btn6,btn_checkbox,btn_imageView,btn_listView,btn_gridview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,7 @@ public class ButtonActivity extends AppCompatActivity {
         btn_checkbox = findViewById(R.id.btn_checkbox);
         btn_imageView = findViewById(R.id.btn_imageview);
         btn_listView = findViewById(R.id.btn_listview);
+        btn_gridview = findViewById(R.id.btn_gridview);
         setListeners();
 
     }
@@ -35,6 +36,7 @@ public class ButtonActivity extends AppCompatActivity {
         btn_checkbox.setOnClickListener(onclick);
         btn_imageView.setOnClickListener(onclick);
         btn_listView.setOnClickListener(onclick);
+        btn_gridview.setOnClickListener(onclick);
     }
     private class onclick implements View.OnClickListener{
         @Override
@@ -64,6 +66,11 @@ public class ButtonActivity extends AppCompatActivity {
                     //跳转到listview界面
                     intent = new Intent(ButtonActivity.this,ListViewActivity.class);
                     break;
+                case R.id.btn_gridview:
+                    //跳转到gridview界面
+                    intent = new Intent(ButtonActivity.this,GridViewActivity.class);
+                    break;
+
 
             }
             startActivity(intent);

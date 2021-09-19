@@ -130,4 +130,19 @@
         >
 
     </Button>
+    <Button
+        android:id="@+id/btn_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_listview"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn4"
+        android:text="GridView"
+        android:textColor="#0066FF"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+
+        >
+
+    </Button>
 </RelativeLayout>
