@@ -8,8 +8,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.myapplication.recyclerview.RecyclerviewActivity;
+
 public class ButtonActivity extends AppCompatActivity {
-    private Button btn3,btn5,btn6,btn_checkbox,btn_imageView,btn_listView,btn_gridview;
+    private Button btn3,btn5,btn6,btn_checkbox,btn_imageView,btn_listView,btn_gridview,btn_recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,7 @@ public class ButtonActivity extends AppCompatActivity {
         btn_imageView = findViewById(R.id.btn_imageview);
         btn_listView = findViewById(R.id.btn_listview);
         btn_gridview = findViewById(R.id.btn_gridview);
+        btn_recyclerView = findViewById(R.id.btn_recyclerView);
         setListeners();
 
     }
@@ -37,6 +40,7 @@ public class ButtonActivity extends AppCompatActivity {
         btn_imageView.setOnClickListener(onclick);
         btn_listView.setOnClickListener(onclick);
         btn_gridview.setOnClickListener(onclick);
+        btn_recyclerView.setOnClickListener(onclick);
     }
     private class onclick implements View.OnClickListener{
         @Override
@@ -69,6 +73,10 @@ public class ButtonActivity extends AppCompatActivity {
                 case R.id.btn_gridview:
                     //跳转到gridview界面
                     intent = new Intent(ButtonActivity.this,GridViewActivity.class);
+                    break;
+                case R.id.btn_recyclerView:
+                    //跳转到gridview界面
+                    intent = new Intent(ButtonActivity.this, RecyclerviewActivity.class);
                     break;
 
 
