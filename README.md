@@ -10,4 +10,4 @@
 * CheckBox
 * ImageView&第三方库（Glide）加载网络图片
 * 列表视图ListView
-  
+* RecyclerView
